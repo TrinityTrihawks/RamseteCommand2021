@@ -15,13 +15,23 @@ import edu.wpi.first.wpilibj.kinematics.DifferentialDriveKinematics;
  * constants are needed, to reduce verbosity.
  */
 public final class Constants {
-  /**
-   * "*motor1" is front, "2" is back
-   */
+  
   public static final class DriveConstants {
+    /**
+     * "*motor1" is front, "2" is back
+     */
     public static final int kLeftMotor1Port = 4;
+    /**
+     * "*motor1" is front, "2" is back
+     */
     public static final int kLeftMotor2Port = 7;
+    /**
+     * "*motor1" is front, "2" is back
+     */
     public static final int kRightMotor1Port = 1;
+    /**
+     * "*motor1" is front, "2" is back
+     */
     public static final int kRightMotor2Port = 3;
 
     public static final int[] kLeftEncoderPorts = new int[] {0, 1}; // TODO
